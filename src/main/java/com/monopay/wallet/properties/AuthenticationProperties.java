@@ -6,12 +6,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+@ConfigurationProperties("authentication")
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@ConfigurationProperties("authentication")
 public class AuthenticationProperties {
 
-  private String defaultApiKey;
+  private String verifyUrl;
+
 }

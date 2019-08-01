@@ -9,12 +9,12 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class WebResponse<T> {
+public class WebResponse {
 
   private Integer code;
 
   private String status;
 
-  private T data;
+  private Merchant data;
 
 }

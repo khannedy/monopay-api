@@ -1,4 +1,4 @@
-package com.monopay.wallet.model.web.request;
+package com.monopay.wallet.model.web;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,10 +9,9 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class PointTransactionWebRequest {
+public class Merchant {
 
-  private String memberId;
+  private String id;
 
-  private Long total;
-
+  private String name;
 }
