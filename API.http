@@ -1,8 +1,3 @@
-# Authenticate
-POST http://localhost:9090/v1/auth/authenticate
-Accept: application/json
-API-KEY: SECRET
-
 ###
 # Create Member
 POST http://localhost:9090/v1/members
