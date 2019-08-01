@@ -13,7 +13,7 @@ API-KEY: SECRET
 
 ###
 # Update Member
-PUT http://localhost:9090/v1/members/ad9cab9b-436c-49d0-bc57-31da89fb3ac5
+PUT http://localhost:9090/v1/members/6d208f26-679d-4cf4-b322-3b81d55ca8c4
 Accept: application/json
 Content-Type: application/json
 API-KEY: SECRET
@@ -25,7 +25,7 @@ API-KEY: SECRET
 
 ###
 # Get Member
-GET http://localhost:9090/v1/members/ad9cab9b-436c-49d0-bc57-31da89fb3ac5
+GET http://localhost:9090/v1/members/bc50306a-3b28-45e4-bdd3-cbd69b07126a
 Accept: application/json
 API-KEY: SECRET
 
@@ -38,7 +38,7 @@ Content-Type: application/json
 API-KEY: SECRET
 
 {
-  "memberId": "ad9cab9b-436c-49d0-bc57-31da89fb3ac5",
+  "memberId": "bc50306a-3b28-45e4-bdd3-cbd69b07126a",
   "total": 1000000
 }
 
@@ -51,7 +51,7 @@ Content-Type: application/json
 API-KEY: SECRET
 
 {
-  "memberId": "ad9cab9b-436c-49d0-bc57-31da89fb3ac5",
+  "memberId": "bc50306a-3b28-45e4-bdd3-cbd69b07126a",
   "total": 5000000
 }
 
@@ -64,7 +64,7 @@ Content-Type: application/json
 API-KEY: SECRET
 
 {
-  "memberId": "ad9cab9b-436c-49d0-bc57-31da89fb3ac5",
+  "memberId": "bc50306a-3b28-45e4-bdd3-cbd69b07126a",
   "total": 100000
 }
 
@@ -77,7 +77,7 @@ Content-Type: application/json
 API-KEY: SECRET
 
 {
-  "memberId": "ad9cab9b-436c-49d0-bc57-31da89fb3ac5",
+  "memberId": "bc50306a-3b28-45e4-bdd3-cbd69b07126a",
   "total": 1000000,
   "bank": "BCA",
   "bankAccountNumber": "024124124"
@@ -86,14 +86,14 @@ API-KEY: SECRET
 ###
 
 # List Transactions
-GET http://localhost:9090/v1/transactions/ad9cab9b-436c-49d0-bc57-31da89fb3ac5
+GET http://localhost:9090/v1/transactions/bc50306a-3b28-45e4-bdd3-cbd69b07126a
 Accept: application/json
 API-KEY: SECRET
 
 ###
 
 # List Transfer
-GET http://localhost:9090/v1/transfers/ad9cab9b-436c-49d0-bc57-31da89fb3ac5
+GET http://localhost:9090/v1/transfers/bc50306a-3b28-45e4-bdd3-cbd69b07126a
 Accept: application/json
 API-KEY: SECRET
 
